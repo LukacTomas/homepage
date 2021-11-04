@@ -18,7 +18,7 @@ const theme = createTheme({
   },
 });
 
-export default function IndexLang({ language, children }) {
+export default function Theme({ language, children }) {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />

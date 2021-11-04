@@ -2,11 +2,11 @@ import React from "react";
 import { render } from "react-dom";
 
 import App from "./Components/App";
-import { ThemeProvider } from "./Theme";
+import Theme from "./Theme";
 
 render(
-  <ThemeProvider>
+  <Theme>
     <App />
-  </ThemeProvider>,
+  </Theme>,
   document.getElementById("app")
 );

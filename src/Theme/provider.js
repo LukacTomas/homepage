@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { ThemeContext } from "./context";
+import "./theme.css";
 
 const LightTheme = React.lazy(() => import("./light/"));
 const DarkTheme = React.lazy(() => import("./dark/"));

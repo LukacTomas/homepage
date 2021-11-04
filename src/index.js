@@ -1,6 +1,12 @@
-import React from 'react';
-import { render } from 'react-dom';
+import React from "react";
+import { render } from "react-dom";
 
-import App from './Components/App';
+import App from "./Components/App";
+import { ThemeProvider } from "./Theme";
 
-render(<App/>, document.getElementById("app"));
+render(
+  <ThemeProvider>
+    <App />
+  </ThemeProvider>,
+  document.getElementById("app")
+);

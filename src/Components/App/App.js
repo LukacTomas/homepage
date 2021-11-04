@@ -1,9 +1,10 @@
-import React from 'react'
+import React from "react";
+import { Navigation } from "../Navigation";
 
 export const App = () => {
-    return (
-        <div>
-            Hello, React
-        </div>
-    )
-}
+  return (
+    <>
+      <Navigation />
+    </>
+  );
+};

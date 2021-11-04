@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { ThemeContext } from "./context";
 
-const LightTheme = React.lazy(() => import("./dark/"));
-const DarkTheme = React.lazy(() => import("./light/"));
+const LightTheme = React.lazy(() => import("./light/"));
+const DarkTheme = React.lazy(() => import("./dark/"));
 
 export const ThemeProvider = ({ children }) => {
   const [theme, setTheme] = useState("light");
